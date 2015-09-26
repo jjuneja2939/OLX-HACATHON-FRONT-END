@@ -34,7 +34,7 @@ var infoWindow = new google.maps.InfoWindow({map: map});
 
 var markers = [
         ['HONDA STUNNER, NOIDA', 28.578,77.365],
-        ['BAJAJ PULSAR, GURGAON', 28.435,28.435],
+        ['BAJAJ PULSAR, GURGAON', 28.435,77.058],
 		['HERO SPLENDOR, BANGALURU', 12.95,77.63],
 		['TVS APACHE, CHENNAI', 13.047,80.209]
     ];
@@ -46,7 +46,15 @@ var markers = [
         '<p>Available for sale a honda stunner bike. the bike is red coloured, 2012 make and 20000km driven.</p>' +        '</div>'],
         ['<div class="info_content">' +
         '<h3>Bajaj Pulsar</h3>' +
-        '<p>Available for sale a bajaj pulsar bike. the bike is red coloured, 2010 make and 35000km driven.</p>' +
+        '<p>Available for sale a bajaj pulsar bike. the bike is yellow coloured, 2010 make and 35000km driven.</p>' +
+        '</div>'],
+		['<div class="info_content">' +
+        '<h3>HERO SPLENDOR</h3>' +
+        '<p>Available for sale a hero splendor bike. the bike is silver coloured, 2011 make and 30000km driven.</p>' +
+        '</div>'],
+		['<div class="info_content">' +
+        '<h3>TVS APACHE</h3>' +
+        '<p>Available for sale a TVS APACHE bike. the bike is black coloured, 2009 make and 45000km driven.</p>' +
         '</div>']
     ];
         
@@ -96,25 +104,6 @@ var markers = [
     // Browser doesn't support Geolocation
     handleLocationError(false, infoWindow, map.getCenter());
   }
-
-/*var myLatLng = {lat: 28.578, lng: 77.365};
-  // Create a marker and set its position.
-  var marker = new google.maps.Marker({
-    map: map,
-    position: myLatLng,
-	draggable: true,
-    animation: google.maps.Animation.DROP,
-    title: 'Available Red Honda Stunner For Sale'
-  });
-  marker.addListener('click', toggleBounce);
-
-function toggleBounce() {
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}*/
 }
 
 
