@@ -1,0 +1,34 @@
+{
+    "addList": [{
+        
+        "add": {
+            "title": "Add1",
+            "Price": "200",
+			"Latitude": "28.578",
+			"Longitude": "77.365"
+			
+                
+            },
+		"add": {
+            "title": "Add 2",
+            "Price": "500",
+			"Latitude": "28.435",
+			"Longitude": "77.058"
+                
+            },
+		"add": {
+            "title": "Add 3",
+            "Price": "1000",
+			"Latitude": "12.95",
+			"Longitude": "77.63"
+                
+            },
+		"add": {
+            "title": "Add 4",
+            "Price": "1500",
+			"Latitude": "13.047",
+			"Longitude": "80.209"
+                
+            }
+        }]
+}

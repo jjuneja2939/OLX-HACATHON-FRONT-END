@@ -1,0 +1,255 @@
+/**
+Page CSS
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    font-family: 'PT Sans', sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/*******Fonts
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*******/
+
+.aligncenter {
+    text-align: center !important;
+}
+
+.alignleft {
+    text-align: left !important;
+}
+
+.alignright {
+    text-align: right !important;
+}
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}
+
+/********Reset CSS End**********/
+
+
+/********Page CSS Start**********/
+#pageWrapper {
+    width: 100%;
+    
+    float: left;
+    height: 553px;
+    background-attachment: initial;
+    }
+#black_bar p
+{
+    color:white;
+    font-size: 24px;
+    padding-top: 10px;
+}
+#black_bar
+{
+    background-color:black;
+    width:100%;
+    height:50px;
+    top: 0;
+    left: 0;
+    float: left;
+    z-index: 100;
+    position: absolute;
+    display: block;
+    text-align: center;
+}    
+#white_nav
+{
+    background-color: #ffccc;
+    width: 60%;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 20%; 
+}
+ul#white_subnav li
+{
+ color: black;
+    float: left;
+    list-style: outside none none;
+    margin-left: 130px;
+    
+    padding-top: 16px;
+
+}
+#second_container
+{
+    height: 300px;
+    left: 5%;
+    position: relative;
+    right: 5%;
+    text-align: center;
+    top: 10%;
+    width: 90%;
+
+}
+#second_container h6
+{
+    font-size: 40px;
+    padding-top: 10px;
+    left: -55px;
+    padding-bottom: 20px;
+    position: relative;    
+    
+}
+#important_text
+{
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+#important_text p
+{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+#important_text h1
+{
+    color:white;
+    font-size: 44px;
+    line-height: 116%;
+    font-style: italic;
+}
+#content_wrapper
+{
+    background-color: white;
+    position: relative;
+    top: 80px;
+    padding-top: 20px;
+}
+.posts
+{
+    width: 327px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-right: 50px;
+}
+.posts img
+{
+    width: 327px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 30px;
+   }
+
+   #second_container p 
+   {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: left;
+   }
+   #second_container a.orange_button
+   {
+    width:50px;
+    height:20px;
+    background-color: #ef6f00;
+    color:white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;padding-right: 10px;
+    text-decoration: none;
+    left: -120px;
+    position: relative;
+    top: 20px;
+   }
